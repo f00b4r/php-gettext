@@ -36,6 +36,9 @@ class ParsingTest extends PHPUnit_Framework_TestCase
       ));
   }
 
+  /**
+   * @expectedException InvalidArgumentException
+   */
   public function test_select_string_disallows_nonint_numbers()
   {
     $pofile_data = ''
