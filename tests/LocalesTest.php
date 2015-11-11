@@ -1,5 +1,4 @@
 <?php
-require_once('PHPUnit/Framework.php');
 require_once('gettext.inc');
 
 class LocaleTest extends PHPUnit_Framework_TestCase
