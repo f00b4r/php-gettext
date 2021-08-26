@@ -4,7 +4,7 @@ install:
 	composer update
 
 lint:
-	vendor/bin/parallel-lint src tests examples
+	vendor/bin/parallel-lint --exclude vendor .
 
 tests:
 	vendor/bin/phpunit tests
