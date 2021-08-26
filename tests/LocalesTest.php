@@ -1,7 +1,6 @@
 <?php
-require_once('gettext.inc');
 
-class LocaleTest extends PHPUnit_Framework_TestCase
+class LocalesTest extends PHPUnit\Framework\TestCase
 {
   public function test_setlocale()
   {

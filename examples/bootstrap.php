@@ -38,10 +38,6 @@ if (!defined('LC_MESSAGES')) {
   define('LC_MESSAGES',	5);
 }
 
-require('streams.php');
-require('gettext.php');
-
-
 // Variables
 
 global $text_domains, $default_domain, $LC_CATEGORIES, $EMULATEGETTEXT, $CURRENTLOCALE;
